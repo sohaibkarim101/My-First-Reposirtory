@@ -1,0 +1,52 @@
+div{
+    margin: 50px 60px;
+}
+h2{
+    background-color:slategrey;
+    font-weight: bolder;
+    font-size: 25px;
+}
+img{
+    position: absolute;
+    right: 65px;
+    top: 60px;
+    height: 120px;
+    width: 100px;
+    border: 2px solid black;
+}
+.div1p{
+    line-height: 0.2;
+}
+.bold{
+    font-weight: bold;
+}
+.personalprofile p{
+    text-align: justify;
+}
+@media screen and (max-width:600px){
+    h2{
+        font-size: 15px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:600px){
+    p, li{
+        font-size: 10px;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:600px){
+    img{
+        height: 60px;
+        width: 40px;
+        display: absolute;
+        right: 20px;
+        top: 10px;
+    }
+}
+@media screen and (max-width:600px){
+div{
+    margin: 10px 20px;
+}
+}
+
